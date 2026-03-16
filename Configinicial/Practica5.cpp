@@ -2,7 +2,7 @@
 //Practica5
 //Urzua Cruz Monica Ixchel
 //320110450
-//Fecha de entrega /03/2026
+//Fecha de entrega 13/03/2026
 #include<iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
