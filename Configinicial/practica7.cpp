@@ -1,3 +1,7 @@
+//Practica7
+//Urzua Cruz Monica Ixchel
+//320110450
+//fecha de entrega 27/03/2026
 #include <iostream>
 #include <cmath>
 #include <string>
@@ -119,7 +123,7 @@ int main()
 
         // Renderizar el Dado
         glm::mat4 model(1);
-        // Aquí podrías añadir transformaciones: model = glm::rotate(model, (GLfloat)glfwGetTime(), glm::vec3(0.5f, 1.0f, 0.0f));
+
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 
         Dado.Draw(modelShader);
@@ -131,7 +135,7 @@ int main()
     return 0;
 }
 
-// Lógica de movimiento idéntica a la estructura solicitada
+// Lógica de movimiento 
 void DoMovement()
 {
     if (keys[GLFW_KEY_W] || keys[GLFW_KEY_UP])    camera.ProcessKeyboard(FORWARD, deltaTime);
