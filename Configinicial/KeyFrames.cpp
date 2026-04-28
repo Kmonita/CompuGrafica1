@@ -1,7 +1,7 @@
 //Previo12
 //Urzua Cruz Monica Ixchel
 //320110450
-//Fecha de entrega 
+//Fecha de entrega 27/04/2026
 
 #include <iostream>
 #include <cmath>
